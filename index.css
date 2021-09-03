@@ -1,0 +1,126 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-color: #F0E5CF;
+}
+.menu-box{
+    position: fixed;
+    overflow: scroll;
+    color:white;
+    background-color: black;
+    margin-left: 10px;
+    width: 300px;
+    height: 98%;
+    border-bottom: 10px solid rgba(255, 255, 255);
+}
+#menu-head{
+    color: bisque;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 20px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #0F52BA;
+    background-size: cover;
+}
+.main-head{
+    color:white;
+       font-size: 19px;
+       font-weight: 900;
+       padding: 10px;
+       line-height: 30px;
+       cursor: pointer;
+       border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.main-head:hover{
+    background-color: #3DB2FF;
+    padding: 20px;
+}
+/* @keyframes zoom {
+    0%{
+        transform: scale(0.9);
+        padding: 10px;
+    }
+    100%{
+        transform: scale(1.1);
+        padding: 20px;
+    }
+} */
+.sub-head{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.sub-head:hover{
+    background-color: #64C9CF;
+    padding: 20px;
+}
+ul, li{
+    list-style: none;
+    padding: 5px;
+    color: white;
+    
+}
+nav ul li a {
+    
+    text-decoration: none;
+    
+}
+ nav ul li{
+    margin-left: 5px;
+    line-height: 32px;
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+} 
+nav ul li:hover{
+    background-color: #035397;
+    padding: 20px;
+}
+button{
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 200px;
+    border-color: black;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+main{
+    color: #4B6587;
+   /* background-color: black; */
+    position: sticky;
+    left: 24vw; 
+    bottom: 60vh;
+    height: 100%;
+    width: 75%;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+h1{
+margin-top: 20px;
+}
+p{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    word-spacing: 2px;
+    margin-top: 10px;
+}
+h2{
+    margin-top: 15px; 
+}
+h3{
+    padding: 5px;
+    margin-top: 13px;
+}
