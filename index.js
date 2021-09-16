@@ -15,11 +15,19 @@ function item1(){
     var node = document.createTextNode(internet.paragraph)
     para.appendChild(node)
     main.appendChild(para)
+    var fullstack = document.getElementById('fullstack')
+        // fullstack.style.display= 'none'
+        if (item1='click'){
+            fullstack.style.display= 'none'
+        }
+        else{
+            fullstack.style.display= 'block'
+        }
 }
-
-
 var net = document.getElementById('item1')
 net.addEventListener('click', item1, {once:true})
+
+
 
  var git = new programs('GITHUB','GitHub is a Git repository hosting service, but it adds many of its own features. While Git is a command line tool, GitHub provides a Web-based graphical interface. It also provides access control and several collaboration features, such as a wikis and basic task management tools for every project.')
 
@@ -33,6 +41,8 @@ function item2(){
     var node = document.createTextNode(git.paragraph)
     para.appendChild(node)
     main.appendChild(para)
+    var fullstack = document.getElementById('fullstack')
+        fullstack.style.display= 'none'
 }
 var github = document.getElementById('item2')
 github.addEventListener('click', item2, {once:true})
